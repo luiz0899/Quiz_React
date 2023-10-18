@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" , sans-serif;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height:100%;
+  background-color: #089bc3;
+}
+img{
+  max-width: 100%;
+}
+button{
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem ;
+  background: linear-gradient(
+    90deg,
+    rgb(76, 53, 222) 0% ,
+    rgb(76, 202, 237) 100%
+  );
+  border-radius: 3rem;
+  border: bold;
+  border-color: aliceblue;
+
+}
+button:hover{
+  background: linear-gradient(
+    90deg,
+    rgb(76, 202, 237) 0%,
+    rgb(76, 53, 222) 100% 
+    
+  );
+
+
+
+}
